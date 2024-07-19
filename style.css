@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+}
+.header{
+    text-align: center;
+}
+.time{
+    font-size: 8rem;
+    font-weight: bold;
+}
+.current{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    border: 2px solid #e67206;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding:1rem;
+}
+.guest-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:1rem;
+    align-items: center;
+}
+.result{
+    text-align: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.listItem{
+    display: flex;
+    border: 2px solid #e67206;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.listItemInvolved{
+    width: 20%;
+}
+.listItemTime, .listItemName, #currentItemTime, #currentItemName, #currentItemInvolved{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
